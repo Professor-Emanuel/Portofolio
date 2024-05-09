@@ -1,452 +1,465 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta
-      charset="UTF-8"
-      name="keywords"
-      content="Emanuel-Attila Kokovics, Research Assistent ICAM, Assistant Professor UVT"
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">Emanuel-Attila Kokovics</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <nav id="hamburger-nav">
-      <div class="logo">Emanuel-Attila Kokovics</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-
-    <section id="profile">
-      <div class="section__pic-container">
-        <!-- poza e deja facuta rotunda folosind un website-->
-        <img src="./Assets/profile-pic.jpg" alt="Emanuel profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section_text__p1">Hello, I'm</p>
-        <h1 class="title">Emanuel-Attila Kokovics</h1>
-        <p class="section__text__p2">Research Assistant</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick=" window.open('./Assets/resume_example.pdf')"
-          >
-            Resume
-          </button>
-          <button class="btn btn-color-1" onclick=" location.href='./#contact'">
-            Contact
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./Assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/emanuel-attila-kokovics-91772a152/'"
-          />
-
-          <img
-            src="./Assets/github.png"
-            alt="My GitHub profile"
-            class="icon"
-            onclick="location.href='https://github.com/Professor-Emanuel'"
-          />
-        </div>
-      </div>
-    </section>
-
-    <section id="about">
-      <p class="section__text__p1">Get to know more</p>
-      <h1 class="title">About me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./Assets/about-pic.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./Assets/experience.png"
-                alt="experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>
-                10+ years <br/ > Assistant Professor<br />Research Assistant
-              </p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./Assets/education.png"
-                alt="education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>
-                B.Sc Bachelors Degree<br />
-                M.Sc. Masters Degree <br />
-                PhD. Degree
-              </p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              Emanuel-Attila Kőkőovics is a graduate of the Faculty of
-              Mathematics and Computer Science at the West University of
-              Timișoara, specializing in Mathematics-Informatics, graduating in
-              2014 with an overall GPA of 9.59 and a bachelor's thesis GPA of
-              10. He pursued his master's studies specializing in Analytical and
-              Geometrical Modeling of Systems, which he completed in 2016 with
-              an overall GPA of 9.81 and a dissertation exam GPA of 10.
-              Throughout his university studies, Emanuel-Attila Kőkőovics
-              distinguished himself with excellent results and exceptional work
-              capacity, actively participating in various faculty events. In
-              2017, he was admitted to the doctoral program with a GPA of 10. He
-              scored 10 in almost all exams in the disciplines provided in the
-              doctoral study plan and submitted all reports on time. During his
-              doctoral studies, Emanuel-Attila Kőkőovics was active within the
-              Applied and Computational Mathematics research group, supervised
-              by the undersigned and Prof. Dr. Habil. Mihaela Neamțu.
-
-              <!--During his doctoral studies, he received a scholarship to attend a training school in Bari, Italy (2019) under COST Action CA 15225, participation grants for two conferences, one in Krakow, Poland (2018) through the PN-III-P1-1.1-MC2018-1021 mobility project, and another in Copenhagen, Denmark (2019) through the PN-III-P1-1.1-MC-2019-0924 mobility project. Additionally, he benefited from two research internships at ACMIT, Wiener Neustadt, Austria, in 2018 and 2019, as part of the "Dynamics" H2020-MSCA-RISE-2017-777911 project (coordinated by Prof. Dr. Gheorghe Țigan), aiming to deepen his knowledge of bifurcation theory in dynamic systems.
-                            
-                            In 2018, Emanuel-Attila Kőkőovics competitively won a doctoral research scholarship as part of the project "Excellent Research in UVT through the support and development of university research centers" FDI-2018-0389.
-                            
-                            Since 2017, Emanuel-Attila Kőkőovics has conducted numerous seminars and laboratories at the West University of Timișoara as an external lecturer. Since the winter of 2023, he has been a Research Assistant at the Department of Mathematics of the Faculty of Mathematics and Computer Science at UVT within the Center for Advanced Research in Environment, standing out for his professional dedication and thorough preparation.
-                            
-                            Throughout his doctoral internship, Emanuel-Attila Kőkőovics has had a rich and diverse research activity, resulting in the publication of 4 scientific articles in collaboration in Web of Knowledge-indexed journals (one of which was recently accepted in the Journal of Chaos, Solitons & Fractals, published online), 7 presentations at prestigious international conferences, and 1 article published in the volumes of one of the respective conferences. To date, Emanuel-Attila Kőkőovics' published works have garnered 12 individual citations (excluding self-citations) visible in Web of Knowledge and have generated an h-index of 3 in Web of Knowledge, Scopus, and Google Scholar.
-                            -->
-            </p>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./Assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Assistant Professor</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Calsulus</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Differential Equations</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Numerical Methods</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>C/C++</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Web Development</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Research Assistant</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Delay Differential Equations</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Wilson-Cowan models</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Numerical Simulations</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Wolfram Mathematica</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Matlab</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./Assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Overleaf-Latex</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./Assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Professor-Emanuel/Tetris-SFML-Game_In_Cpp'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Professor-Emanuel/Tetris-SFML-Game_In_Cpp'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Professor-Emanuel/SnakeGame_In_Cpp'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Professor-Emanuel/SnakeGame_In_Cpp'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Professor-Emanuel/PongGame_In_Cpp'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Professor-Emanuel/PongGame_In_Cpp'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
-
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./Assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p>
-            <a href="mailto:professoremanuelkokovics@gmail.com"
-              >professoremanuelkokovics@gmail.com</a
-            >
-          </p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./Assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p>
-            <a
-              href="https://www.linkedin.com/in/emanuel-attila-kokovics-91772a152/"
-              >LinkedIn</a
-            >
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta
+        charset="UTF-8"
+        name="keywords"
+        content="Emanuel-Attila Kokovics, Research Assistent ICAM, Assistant Professor UVT"
+        />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />
+    </head>
+    <body>
+        <nav id="desktop-nav">
+        <div class="logo">Emanuel-Attila Kokovics</div>
+        <div>
+            <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-          </ul>
+            </ul>
         </div>
-      </nav>
-      <p>Copyright &#169; 2024 Emanuel-Attila Kokovics. All rights Reserved.</p>
-    </footer>
+        </nav>
 
-    <script src="script.js"></script>
-  </body>
-</html>
+        <nav id="hamburger-nav">
+        <div class="logo">Emanuel-Attila Kokovics</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+        </nav>
+
+        <section id="profile">
+        <div class="section__pic-container">
+            <!-- poza e deja facuta rotunda folosind un website-->
+            <img src="./Assets/profile-pic.jpg" alt="Emanuel profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section_text__p1">Hello, I'm</p>
+            <h1 class="title">Emanuel-Attila Kokovics</h1>
+            <p class="section__text__p2">Research Assistant</p>
+            <div class="btn-container">
+            <button
+                class="btn btn-color-2"
+                onclick=" window.open('./Assets/resume_example.pdf')"
+            >
+                Resume
+            </button>
+            <button class="btn btn-color-1" onclick=" location.href='./#contact'">
+                Contact
+            </button>
+            </div>
+            <div id="socials-container">
+                <a href="https://www.linkedin.com/in/emanuel-attila-kokovics-91772a152/" target="_blank">
+                    <img
+                    src="./Assets/linkedin.png"
+                    alt="My LinkedIn profile"
+                    class="icon"
+                    />
+                </a>
+            <!--<img
+                src="./Assets/linkedin.png"
+                alt="My LinkedIn profile"
+                class="icon"
+                onclick="location.href='https://www.linkedin.com/in/emanuel-attila-kokovics-91772a152/'"
+            />-->
+            <a href="https://github.com/Professor-Emanuel" target="_blank">
+                <img
+                src="./Assets/github.png"
+                alt="My LinkedIn profile"
+                class="icon"
+                />
+            </a>
+            <!--<img
+                src="./Assets/github.png"
+                alt="My GitHub profile"
+                class="icon"
+                onclick="location.href='https://github.com/Professor-Emanuel'"
+            />-->
+            </div>
+        </div>
+        </section>
+
+        <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+            <img
+                src="./Assets/about-pic.jpg"
+                alt="Profile picture"
+                class="about-pic"
+            />
+            </div>
+
+            <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                <img
+                    src="./Assets/experience.png"
+                    alt="experience icon"
+                    class="icon"
+                />
+                <h3>Experience</h3>
+                <p>
+                    10+ years <br/ > Assistant Professor<br />Research Assistant
+                </p>
+                </div>
+                <div class="details-container">
+                <img
+                    src="./Assets/education.png"
+                    alt="education icon"
+                    class="icon"
+                />
+                <h3>Education</h3>
+                <p>
+                    B.Sc Bachelors Degree<br />
+                    M.Sc. Masters Degree <br />
+                    PhD. Degree
+                </p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                Emanuel-Attila Kőkőovics is a graduate of the Faculty of
+                Mathematics and Computer Science at the West University of
+                Timișoara, specializing in Mathematics-Informatics, graduating in
+                2014 with an overall GPA of 9.59 and a bachelor's thesis GPA of
+                10. He pursued his master's studies specializing in Analytical and
+                Geometrical Modeling of Systems, which he completed in 2016 with
+                an overall GPA of 9.81 and a dissertation exam GPA of 10.
+                Throughout his university studies, Emanuel-Attila Kőkőovics
+                distinguished himself with excellent results and exceptional work
+                capacity, actively participating in various faculty events. In
+                2017, he was admitted to the doctoral program with a GPA of 10. He
+                scored 10 in almost all exams in the disciplines provided in the
+                doctoral study plan and submitted all reports on time. During his
+                doctoral studies, Emanuel-Attila Kőkőovics was active within the
+                Applied and Computational Mathematics research group, supervised
+                by the undersigned and Prof. Dr. Habil. Mihaela Neamțu.
+
+                <!--During his doctoral studies, he received a scholarship to attend a training school in Bari, Italy (2019) under COST Action CA 15225, participation grants for two conferences, one in Krakow, Poland (2018) through the PN-III-P1-1.1-MC2018-1021 mobility project, and another in Copenhagen, Denmark (2019) through the PN-III-P1-1.1-MC-2019-0924 mobility project. Additionally, he benefited from two research internships at ACMIT, Wiener Neustadt, Austria, in 2018 and 2019, as part of the "Dynamics" H2020-MSCA-RISE-2017-777911 project (coordinated by Prof. Dr. Gheorghe Țigan), aiming to deepen his knowledge of bifurcation theory in dynamic systems.
+                                
+                                In 2018, Emanuel-Attila Kőkőovics competitively won a doctoral research scholarship as part of the project "Excellent Research in UVT through the support and development of university research centers" FDI-2018-0389.
+                                
+                                Since 2017, Emanuel-Attila Kőkőovics has conducted numerous seminars and laboratories at the West University of Timișoara as an external lecturer. Since the winter of 2023, he has been a Research Assistant at the Department of Mathematics of the Faculty of Mathematics and Computer Science at UVT within the Center for Advanced Research in Environment, standing out for his professional dedication and thorough preparation.
+                                
+                                Throughout his doctoral internship, Emanuel-Attila Kőkőovics has had a rich and diverse research activity, resulting in the publication of 4 scientific articles in collaboration in Web of Knowledge-indexed journals (one of which was recently accepted in the Journal of Chaos, Solitons & Fractals, published online), 7 presentations at prestigious international conferences, and 1 article published in the volumes of one of the respective conferences. To date, Emanuel-Attila Kőkőovics' published works have garnered 12 individual citations (excluding self-citations) visible in Web of Knowledge and have generated an h-index of 3 in Web of Knowledge, Scopus, and Google Scholar.
+                                -->
+                </p>
+            </div>
+            </div>
+        </div>
+        <img
+            src="./Assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#experience'"
+        />
+        </section>
+
+        <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Assistant Professor</h2>
+                <div class="article-container">
+                <article>
+                    <img
+                    src="./Assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                    <h3>Calsulus</h3>
+                    <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img
+                    src="./Assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                    <h3>Differential Equations</h3>
+                    <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img
+                    src="./Assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                    <h3>Numerical Methods</h3>
+                    <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img
+                    src="./Assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                    <h3>Python</h3>
+                    <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img
+                    src="./Assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                    <h3>C/C++</h3>
+                    <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img
+                    src="./Assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                    <h3>Web Development</h3>
+                    <p>Experienced</p>
+                    </div>
+                </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Research Assistant</h2>
+                <div class="article-container">
+                <article>
+                    <img
+                    src="./Assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                    <h3>Delay Differential Equations</h3>
+                    <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img
+                    src="./Assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                    <h3>Wilson-Cowan models</h3>
+                    <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img
+                    src="./Assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                    <h3>Numerical Simulations</h3>
+                    <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img
+                    src="./Assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                    <h3>Wolfram Mathematica</h3>
+                    <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img
+                    src="./Assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                    <h3>Matlab</h3>
+                    <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img
+                    src="./Assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                    <h3>Overleaf-Latex</h3>
+                    <p>Experienced</p>
+                    </div>
+                </article>
+                </div>
+            </div>
+            </div>
+        </div>
+        <img
+            src="./Assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#projects'"
+        />
+        </section>
+        <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                <img
+                    src="./assets/project-1.png"
+                    alt="Project 1"
+                    class="project-img"
+                />
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="window.open('https://github.com/Professor-Emanuel/Tetris-SFML-Game_In_Cpp', '_blank'); return false;"
+                >
+                    Github
+                </button>
+                <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="window.open('https://github.com/Professor-Emanuel/Tetris-SFML-Game_In_Cpp', '_blank'); return false;"
+                >
+                    Live Demo
+                </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                <img
+                    src="./assets/project-2.png"
+                    alt="Project 2"
+                    class="project-img"
+                />
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="window.open('https://github.com/Professor-Emanuel/SnakeGame_In_Cpp', '_blank'); return false;"
+                >
+                    Github
+                </button>
+                <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="window.open('https://github.com/Professor-Emanuel/SnakeGame_In_Cpp', '_blank'); return false;"
+                >
+                    Live Demo
+                </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                <img
+                    src="./assets/project-3.png"
+                    alt="Project 3"
+                    class="project-img"
+                />
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="window.open('https://github.com/Professor-Emanuel/PongGame_In_Cpp', '_blank'); return false;"
+                >
+                    Github
+                </button>
+                <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="window.open('https://github.com/Professor-Emanuel/PongGame_In_Cpp', '_blank'); return false;"
+                >
+                    Live Demo
+                </button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+        />
+        </section>
+
+        <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+            <img
+                src="./Assets/email.png"
+                alt="Email icon"
+                class="icon contact-icon email-icon"
+            />
+            <p>
+                <a href="mailto:professoremanuelkokovics@gmail.com"
+                >professoremanuelkokovics@gmail.com</a
+                >
+            </p>
+            </div>
+            <div class="contact-info-container">
+            <img
+                src="./Assets/linkedin.png"
+                alt="LinkedIn icon"
+                class="icon contact-icon"
+            />
+            <p>
+                <a
+                href="https://www.linkedin.com/in/emanuel-attila-kokovics-91772a152/"
+                >LinkedIn
+                </a>
+            </p>
+            </div>
+        </div>
+        </section>
+
+        <footer>
+        <nav>
+            <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Emanuel-Attila Kokovics. All rights Reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+    </html>
